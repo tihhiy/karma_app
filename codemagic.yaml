@@ -2,7 +2,7 @@ workflows:
   build-android:
     name: Build Android APK
     environment:
-      vars:{}
+      vars: {}
       flutter: stable
     scripts:
       - name: Get dependencies
