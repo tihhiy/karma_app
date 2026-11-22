@@ -4,7 +4,7 @@ workflows:
     environment:
       vars: {}
       flutter: stable
-      java: 17
+      java: openjdk17
     scripts:
       - name: Get dependencies
         script: |
